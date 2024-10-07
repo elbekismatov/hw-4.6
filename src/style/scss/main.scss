@@ -64,8 +64,12 @@ header {
     background-position: center;
     border-radius: 10px;
     margin-bottom: 160px;
+    border-radius: 15px;
+    overflow: hidden;
+  
     .container {
       padding: 145px 95px;
+
 
       h2 {
         font-size: 48px;
@@ -211,7 +215,7 @@ header {
     background-repeat: no-repeat;
     padding: 0;
     background-size: cover;
-
+border-radius: 15px;
     .about {
       display: flex;
       align-items: center;
@@ -700,6 +704,7 @@ footer {
       flex-direction: column;
       align-items: center;
       background-size: cover;
+      border-radius: 0px;
       .container {
         padding: 80px 24px 451px;
         width: 100%;

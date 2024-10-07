@@ -88,6 +88,8 @@ header .container nav ul li a:hover {
   background-position: center;
   border-radius: 10px;
   margin-bottom: 160px;
+  border-radius: 15px;
+  overflow: hidden;
 }
 .digital .section-top-part .container {
   padding: 145px 95px;
@@ -271,6 +273,7 @@ header .container nav ul li a:hover {
   background-repeat: no-repeat;
   padding: 0;
   background-size: cover;
+  border-radius: 15px;
 }
 .information .container .about {
   display: -webkit-box;
@@ -878,6 +881,7 @@ footer .footer-bottom-part .icon img {
         -ms-flex-align: center;
             align-items: center;
     background-size: cover;
+    border-radius: 0px;
   }
   .digital .section-top-part .container {
     padding: 80px 24px 451px;
